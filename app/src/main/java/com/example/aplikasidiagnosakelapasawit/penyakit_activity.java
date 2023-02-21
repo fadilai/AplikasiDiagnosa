@@ -1,0 +1,14 @@
+package com.example.aplikasidiagnosakelapasawit;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class penyakit_activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_penyakit);
+    }
+}
